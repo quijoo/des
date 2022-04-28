@@ -1,0 +1,89 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 14:38 ?        00:00:03 /sbin/init
+root         2     0  0 14:38 ?        00:00:00 [kthreadd]
+root         3     2  0 14:38 ?        00:00:00 [kworker/0:0]
+root         4     2  0 14:38 ?        00:00:00 [kworker/0:0H]
+root         6     2  0 14:38 ?        00:00:00 [mm_percpu_wq]
+root         7     2  0 14:38 ?        00:00:00 [ksoftirqd/0]
+root         8     2  0 14:38 ?        00:00:00 [rcu_sched]
+root         9     2  0 14:38 ?        00:00:00 [rcu_bh]
+root        10     2  0 14:38 ?        00:00:00 [migration/0]
+root        11     2  0 14:38 ?        00:00:00 [watchdog/0]
+root        12     2  0 14:38 ?        00:00:00 [cpuhp/0]
+root        13     2  0 14:38 ?        00:00:00 [kdevtmpfs]
+root        14     2  0 14:38 ?        00:00:00 [netns]
+root        15     2  0 14:38 ?        00:00:00 [rcu_tasks_kthre]
+root        16     2  0 14:38 ?        00:00:00 [kauditd]
+root        17     2  0 14:38 ?        00:00:00 [khungtaskd]
+root        18     2  0 14:38 ?        00:00:00 [oom_reaper]
+root        19     2  0 14:38 ?        00:00:00 [writeback]
+root        20     2  0 14:38 ?        00:00:00 [kcompactd0]
+root        21     2  0 14:38 ?        00:00:00 [ksmd]
+root        22     2  0 14:38 ?        00:00:00 [khugepaged]
+root        23     2  0 14:38 ?        00:00:00 [crypto]
+root        24     2  0 14:38 ?        00:00:00 [kintegrityd]
+root        25     2  0 14:38 ?        00:00:00 [kblockd]
+root        26     2  0 14:38 ?        00:00:00 [ata_sff]
+root        27     2  0 14:38 ?        00:00:00 [md]
+root        28     2  0 14:38 ?        00:00:00 [edac-poller]
+root        29     2  0 14:38 ?        00:00:00 [devfreq_wq]
+root        30     2  0 14:38 ?        00:00:00 [watchdogd]
+root        34     2  0 14:38 ?        00:00:00 [kswapd0]
+root        35     2  0 14:38 ?        00:00:00 [kworker/u3:0]
+root        36     2  0 14:38 ?        00:00:00 [ecryptfs-kthrea]
+root        78     2  0 14:38 ?        00:00:00 [kthrotld]
+root        79     2  0 14:38 ?        00:00:00 [acpi_thermal_pm]
+root        80     2  0 14:38 ?        00:00:00 [scsi_eh_0]
+root        81     2  0 14:38 ?        00:00:00 [scsi_tmf_0]
+root        82     2  0 14:38 ?        00:00:00 [scsi_eh_1]
+root        83     2  0 14:38 ?        00:00:00 [scsi_tmf_1]
+root        89     2  0 14:38 ?        00:00:00 [ipv6_addrconf]
+root        98     2  0 14:38 ?        00:00:00 [kstrp]
+root       115     2  0 14:38 ?        00:00:00 [charger_manager]
+root       173     2  0 14:38 ?        00:00:00 [ttm_swap]
+root       273     2  0 14:38 ?        00:00:00 [kworker/0:2]
+root       281     2  0 14:38 ?        00:00:00 [raid5wq]
+root       322     2  0 14:38 ?        00:00:00 [kworker/0:1H]
+root       341     2  0 14:38 ?        00:00:00 [jbd2/vda1-8]
+root       342     2  0 14:38 ?        00:00:00 [ext4-rsv-conver]
+root       403     1  0 14:38 ?        00:00:00 /lib/systemd/systemd-journald
+root       417     2  0 14:38 ?        00:00:00 [iscsi_eh]
+root       425     1  0 14:38 ?        00:00:00 /sbin/lvmetad -f
+root       429     1  0 14:38 ?        00:00:00 /lib/systemd/systemd-udevd
+root       430     2  0 14:38 ?        00:00:00 [ib-comp-wq]
+root       431     2  0 14:38 ?        00:00:00 [ib-comp-unb-wq]
+root       436     2  0 14:38 ?        00:00:00 [ib_mcast]
+root       438     2  0 14:38 ?        00:00:00 [ib_nl_sa_wq]
+root       444     2  0 14:38 ?        00:00:00 [rdma_cm]
+systemd+   651     1  0 14:38 ?        00:00:00 /lib/systemd/systemd-resolved
+root       720     1  0 14:38 ?        00:00:00 /usr/sbin/cron -f
+daemon     721     1  0 14:38 ?        00:00:00 /usr/sbin/atd -f
+root       725     1  0 14:38 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+syslog     731     1  0 14:38 ?        00:00:00 /usr/sbin/rsyslogd -n
+root       737     1  0 14:38 ?        00:00:00 /lib/systemd/systemd-logind
+message+   742     1  0 14:38 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root       762     1  0 14:38 ?        00:00:00 /usr/bin/lxcfs /var/lib/lxcfs/
+root       765     1  0 14:38 ?        00:00:00 /usr/sbin/sshd -D
+ntp        766     1  0 14:38 ?        00:00:00 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 111:115
+root       767     1  0 14:38 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+root       777     1  0 14:38 ttyS0    00:00:00 /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 vt220
+root       784     1  0 14:38 tty1     00:00:00 /bin/login -p --
+root       853     1  0 14:38 ?        00:00:00 /usr/local/qcloud/YunJing/YDEyes/YDService
+root      1065     1  0 14:39 ?        00:00:00 /usr/local/qcloud/YunJing/YDLive/YDLive
+ubuntu    1104     1  0 14:39 ?        00:00:00 /lib/systemd/systemd --user
+ubuntu    1105  1104  0 14:39 ?        00:00:00 (sd-pam)
+ubuntu    1126   784  0 14:39 tty1     00:00:00 -bash
+root      1792     2  0 15:04 ?        00:00:00 [kworker/u2:1]
+root      2670     2  0 15:15 ?        00:00:00 [kworker/u2:2]
+root      2787     2  0 15:21 ?        00:00:00 [kworker/u2:0]
+root      2822     1 41 15:23 ?        00:00:00 /usr/local/qcloud/stargate/sgagent -d
+u
+
+
+
+
+
+
+:wq
+clear
+:untu    2824  1126  0 15:23 tty1     00:00:00 ps -ef
